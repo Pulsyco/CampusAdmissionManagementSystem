@@ -1,0 +1,121 @@
+     
+ 
+   ul {
+       float: left;
+       width: 100%;
+       padding: 0;
+       margin: 0;
+       list-style-type: none;
+   }
+   
+   a.cd {
+       float: left;
+       width: 9.55%;
+       text-decoration: none;
+       color: white;
+       background-color: grey;
+       padding: 0.2em 0.6em;
+       border-right: 1px solid white;
+   }
+       body{ background-color: #e0ebeb;}
+   
+   a.cd:hover {background-color: #ff3300;}
+   
+   li {display: inline;}
+       
+   div{
+    background-color: #e0ebeb;
+ height: 530;
+}
+
+     .table{
+            background-color: #e0ebeb;
+         height: 530px;
+        }
+    table {
+    width:60%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+     h1
+    {
+    color : saddlebrown;
+        background-color: gainsboro;
+        text-align: center;
+        font-size: 44px;
+        margin:0;
+    padding:0;
+    }
+    .admit{
+        background-color: #c2d7d7;
+     height: 530px;
+    }
+p
+{
+    font-size: 24px;
+}
+input[type=text], input[type=password],input[type=Number],input[type=date] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height:10px;
+    display: inline-block;
+    border: 1px solid #baabab;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+    width:25%;
+}
+    
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 22%;
+}
+
+/* Add padding to container elements */
+.container {width:100%;
+    
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    height:30px;
+    }
+
+/* Change styles for cancel button and signup button on extra small screens */
